@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.quanlythongtin.HelloController"
+            >
+    <TableView fx:id="tableview">
+        <columns>
+            <TableColumn prefWidth="75.0" text="id" fx:id="id"/>
+            <TableColumn prefWidth="75.0" text="name" fx:id="name"/>
+            <TableColumn prefWidth="75.0" text="Class" fx:id="ClasS"/>
+            <TableColumn prefWidth="75.0" text="gender" fx:id="gender"/>
+            <TableColumn prefWidth="75.0" text="address" fx:id="address"/>
+            <TableColumn prefWidth="75.0" text="score" fx:id="score"/>
+        </columns>
+    </TableView>
+
+            <HBox layoutX="500" layoutY="10">
+                <Label text="id"/>
+                <TextField fx:id="id1"/>
+            </HBox>
+            <HBox layoutX="500" layoutY="40">
+                <Label text="Name"/>
+                <TextField fx:id="name1"/>
+            </HBox>
+            <HBox layoutX="500" layoutY="70">
+                <Label text="Class"/>
+                <TextField fx:id="ClasS1"/>
+            </HBox>
+            <HBox layoutX="500" layoutY="100">
+                <Label text="gender"/>
+                <TextField fx:id="gender1"/>
+            </HBox>
+            <HBox layoutX="500" layoutY="130">
+                <Label text="address"/>
+                <TextField fx:id="address1"/>
+            </HBox>
+            <HBox layoutX="500" layoutY="160">
+                <Label text="score"/>
+                <TextField fx:id="score1"/>
+            </HBox>
+    <HBox layoutX="500" layoutY="190">
+        <Button text="Add" onAction="#add"/>
+        <Button text="remove" onAction="#remove"/>
+<!--        <Button text="edit" onAction="#click"/>-->
+    </HBox>
+
+
+</AnchorPane>

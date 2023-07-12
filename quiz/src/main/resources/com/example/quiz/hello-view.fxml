@@ -1,0 +1,55 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ToggleGroup?>
+<VBox>
+    <HBox alignment="TOP_CENTER">
+        <Label text="QUIZ TEST"/>
+    </HBox>
+    <HBox prefHeight="5.0">
+        <VBox>
+            <Label text="1. messi sinh nam bao nhieu ?"/>
+            <RadioButton text="1987"/>
+            <RadioButton text="1988"/>
+            <RadioButton text="1989"/>
+        </VBox>
+    </HBox>
+    <HBox prefHeight="5.0">
+        <VBox>
+            <Label text="2. chon dap an ?"/>
+            <RadioButton text="1"/>
+            <RadioButton text="2"/>
+            <RadioButton text="3"/>
+        </VBox>
+    </HBox>
+    <VBox>
+        <Label text="3. chon dap an ?"/>
+        <RadioButton text="a"/>
+        <RadioButton text="b"/>
+        <RadioButton text="c"/>
+    </VBox>
+    <VBox>
+        <Label text="4. chon dap an ?"/>
+        <RadioButton text="j">
+        </RadioButton>
+        <RadioButton text="f"/>
+        <RadioButton text="g"/>
+    </VBox>
+    <VBox>
+        <Label text="5. chon nhieu dap an ?"/>
+        <CheckBox text=":))"/>
+        <CheckBox text=":>>"/>
+        <CheckBox text=":(("/>
+    </VBox>
+    <HBox alignment="BOTTOM_CENTER">
+        <Button text="submit"/>
+    </HBox>
+</VBox>

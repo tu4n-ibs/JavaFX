@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.informationsurvey.InformationController">
+    <HBox alignment="CENTER">
+        <Label text="1.what your name?"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <TextField fx:id="name"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Label text="2.your birthday?"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <TextField fx:id="date"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Label text="3.your hobby?"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <CheckBox text="football" fx:id="check1"/>
+        <CheckBox text="listen to music" fx:id="check2"/>
+        <CheckBox text="read books" fx:id="check3"/>
+        <CheckBox text="basketball" fx:id="check4"/>
+        <CheckBox text="guitar" fx:id="check5"/>
+        <CheckBox text="other" fx:id="check6"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Label text="4.sex?"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <RadioButton text="male" fx:id="male">
+            <toggleGroup>
+                <ToggleGroup fx:id="sex"/>
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton text="female" toggleGroup="$sex" fx:id="female"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button text="submit" onAction="#onHelloButtonClick"/>
+    </HBox>
+</VBox>

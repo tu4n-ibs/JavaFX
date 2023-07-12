@@ -1,0 +1,10 @@
+name: tuan
+date: 4
+hobby: 
+false
+true
+true
+false
+false
+false
+sex: male
