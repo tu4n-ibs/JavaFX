@@ -36,12 +36,12 @@ public class Student {
         this.name = name;
     }
 
-    public String getclass() {
+    public String getClasS() {
         return Class;
     }
 
     public void setClass(String Class) {
-        Class = Class;
+        this.Class = Class;
     }
 
     public String getGender() {

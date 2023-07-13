@@ -10,7 +10,7 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.quanlythongtin.HelloController"
             >
-    <TableView fx:id="tableview">
+    <TableView fx:id="tableview" onMouseClicked="#click">
         <columns>
             <TableColumn prefWidth="75.0" text="id" fx:id="id"/>
             <TableColumn prefWidth="75.0" text="name" fx:id="name"/>
@@ -48,7 +48,7 @@
     <HBox layoutX="500" layoutY="190">
         <Button text="Add" onAction="#add"/>
         <Button text="remove" onAction="#remove"/>
-<!--        <Button text="edit" onAction="#click"/>-->
+        <Button text="edit" onAction="#Edit"/>
     </HBox>
 
 
