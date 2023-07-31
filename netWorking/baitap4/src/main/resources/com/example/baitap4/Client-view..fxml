@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.baitap4.ClientController"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+        <Label text="Client"/>
+        <TextField fx:id="textClient"/>
+        <HBox layoutY="100">
+            <Button text="enter" onAction="#buttonClient"/>
+        </HBox>
+        <HBox>
+            <Label fx:id="enterClient"/>
+        </HBox>
+    </VBox>
+
+</AnchorPane>

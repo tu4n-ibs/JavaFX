@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ScrollPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="300" prefWidth="400"
+            fx:controller="com.example.client.HelloController">
+    <children>
+        <Button text="Send" fx:id="button" layoutX="330" layoutY="250"/>
+        <TextField fx:id="textField" layoutX="20" layoutY="250" prefWidth="270" />
+        <ScrollPane fx:id="sp_main" layoutX="20" layoutY="10" prefWidth="350" prefHeight="230" >
+            <content>
+                <VBox fx:id="vbox" prefWidth="300" prefHeight="170" />
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
