@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.csserver.HelloController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button text="Enter" fx:id="button" layoutX="319" layoutY="250"/>
+        <TextField fx:id="textField" layoutX="20" layoutY="250" prefWidth="290"/>
+        <ScrollPane fx:id="scrollPane" layoutX="20" layoutY="10" prefWidth="350" prefHeight="230">
+            <content>
+                <VBox fx:id="vbox" prefWidth="340" prefHeight="170"/>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
